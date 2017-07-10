@@ -713,7 +713,7 @@ def normalized_mutual_info_score(labels_true, labels_pred):
     information is normalized by ``sqrt(H(labels_true) * H(labels_pred))``
 
     This measure is not adjusted for chance. Therefore
-    :func:`adjusted_mustual_info_score` might be preferred.
+    :func:`adjusted_mutual_info_score` might be preferred.
 
     This metric is independent of the absolute values of the labels:
     a permutation of the class or cluster label values won't change the
